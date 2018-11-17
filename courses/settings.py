@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'courses.programs',
     'graphene_django',
+    'frontend',
 ]
 
 GRAPHENE = {

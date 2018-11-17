@@ -80,6 +80,11 @@ class Query(object):
         return Program.objects.all()
 
     def resolve_all_weeks(self, info, **kwargs):
+        id = kwargs.get('id')
+
+        if id is not None:
+            program = Program.objects.get(pk=id)
+            return Week.objects.get(program=program)
         # We can easily optimize query count in the resolve method
         return Week.objects.all()
 
