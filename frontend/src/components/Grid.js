@@ -32,8 +32,8 @@ const Grid = ({ data }) =>
     </div>
   );
 
-Table.propTypes = {
+Grid.propTypes = {
   data: PropTypes.array.isRequired
 };
 
-export default Table;
+export default Grid;
