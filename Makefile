@@ -2,6 +2,7 @@ all: install migrate start
 
 install:
 	pip3 install -r requirements.txt
+	npm install && npm run dev
 
 test:
 	python3 manage.py test
