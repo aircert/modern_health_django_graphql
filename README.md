@@ -5,25 +5,25 @@ All you gotta do is `https://github.com/aircert/modern_health_django_graphql.git
 ### Access GraphQL Explorer
 	- Navigate to http://localhost:8000/graphiql
 	- Query All Programs 
-		```
-			query {
-			  allPrograms {
-			    id
-			    name
-			    description
-			    progress
-			    weeks {
-			      id
-			      name
-			      pages {
-			        id 
-			        name
-			        complete
-			      }
-			    }
-			  }
-			}
-		```
+	```
+	query {
+	  allPrograms {
+	    id
+	    name
+	    description
+	    progress
+	    weeks {
+	      id
+	      name
+	      pages {
+	        id 
+	        name
+	        complete
+	      }
+	    }
+	  }
+	}
+	```
 
 ### Check Frontend 
 	- Navigate to http://localhost:8000
