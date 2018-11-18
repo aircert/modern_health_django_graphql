@@ -40,7 +40,7 @@ class Program(models.Model):
     """This class represents the bucketlist model."""
     name = models.CharField(max_length=255, blank=False, unique=True)
     description = models.TextField()
-    image = models.CharField(max_length=255, blank=False, unique=False)
+    image = models.URLField(default="https://via.placeholder.com/150")
     weeks = models.ManyToManyField(Week, blank=False)
     date_created = models.DateTimeField(auto_now_add=True)
     date_modified = models.DateTimeField(auto_now=True)

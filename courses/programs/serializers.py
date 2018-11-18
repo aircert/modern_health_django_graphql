@@ -29,5 +29,5 @@ class ProgramSerializer(serializers.ModelSerializer):
     class Meta:
         """Meta class to map serializer's fields with the model fields."""
         model = Program
-        fields = ('id', 'name', 'description', 'progress', 'date_created', 'date_modified')
+        fields = ('id', 'name', 'description', 'weeks', 'image', 'progress', 'date_created', 'date_modified')
         read_only_fields = ('date_created', 'date_modified')

@@ -24,11 +24,13 @@ class DataProvider extends Component {
               name
               description
               progress
+              image
               weeks {
                 name
                 pages {
                   name
                   complete
+                  audio
                 }
               }
             }

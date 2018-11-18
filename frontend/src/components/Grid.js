@@ -11,6 +11,7 @@ const Grid = ({ data }) =>
       {data.map(el => (
         <div key={el.id} className="program">
           <Col md="12">
+            <img src={el.image} />
             <h5>
               {el.name} ({el.weeks.length} weeks)
             </h5>
@@ -23,6 +24,11 @@ const Grid = ({ data }) =>
                   <p key={week.id}>
                     {week.name} ({week.pages.length} pages)
                   </p>
+                  <ul>
+                    {week.pages.map(page => (
+                      <li key={page.id}>{page.name} - Audio: {page.audio}</li>
+                    ))}
+                  </ul>
                 </div>
               ))}
             </div>

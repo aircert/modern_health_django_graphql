@@ -13,6 +13,8 @@ class ProgramType(DjangoObjectType):
     def resolve_progress(self, info):
         num_pages_complete = self.weeks.filter(pages__complete=True).count()
         num_pages = self.weeks.filter(pages__isnull=False).count()
+        if num_pages_complete == 0:
+            return 0
         return (num_pages_complete / num_pages) * 100
 
 
