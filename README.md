@@ -32,9 +32,9 @@ of Programs, Weeks, and Pages.
 
 ### Instructions
 
- `git clone https://github.com/aircert/modern_health_django_graphql.git` 
- `cd modern_health_django_graphql`
- `make`
+	1) `git clone https://github.com/aircert/modern_health_django_graphql.git` 
+	2) `cd modern_health_django_graphql`
+	3) `make`
 
 ### Access GraphQL Explorer
 
