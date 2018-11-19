@@ -30,7 +30,7 @@ of Programs, Weeks, and Pages.
 	The Program editor should follow CRUD operations for Programs, Weeks, and Pages.
 	Model should allow tracking of different pages, weeks, and programs, accomplished by the User.
 
-### Instructions
+### Instructions (If you run into issues, email me at dgolman@vt.edu)
 
 	1) git clone https://github.com/aircert/modern_health_django_graphql.git
 	2) cd modern_health_django_graphql
