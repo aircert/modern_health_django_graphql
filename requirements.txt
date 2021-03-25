@@ -50,7 +50,7 @@ pytest-django==3.4.4
 python-dateutil==2.7.3
 pytz==2018.7
 PyWavelets==1.0.0
-PyYAML==3.13
+PyYAML==5.4
 requests==2.19.1
 robobrowser==0.5.3
 Rx==1.6.1
