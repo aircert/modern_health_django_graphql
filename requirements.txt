@@ -40,7 +40,7 @@ opencv-python==3.4.3.18
 Pillow==5.2.0
 pluggy==0.8.0
 promise==2.2.1
-py==1.7.0
+py==1.10.0
 PyJWT==1.6.4
 pynder==0.0.13
 pyparsing==2.2.0
