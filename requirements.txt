@@ -41,7 +41,7 @@ Pillow==5.2.0
 pluggy==0.8.0
 promise==2.2.1
 py==1.7.0
-PyJWT==1.6.4
+PyJWT==2.4.0
 pynder==0.0.13
 pyparsing==2.2.0
 pytest==4.0.0
